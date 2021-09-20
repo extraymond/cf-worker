@@ -1,0 +1,14 @@
+type Counter {
+	count: Int!
+}
+type MutationRoot {
+	addCounter(val: Int!): Boolean!
+	minusCounter(val: Int!): Boolean!
+}
+type QueryRoot {
+	counter: Counter!
+}
+schema {
+	query: QueryRoot
+	mutation: MutationRoot
+}
