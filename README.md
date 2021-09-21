@@ -1,3 +1,7 @@
+FORKED FROM CLOUDFLARE-WORKER TEMPLATE TO DEMONSTRATE USING TIDE/ASYNC-GRAPHQL WITHIN WORKER
+
+---
+
 # Getting Started
 
 A template for kick starting a Cloudflare worker project using [`workers-rs`](https://github.com/cloudflare/workers-rs).
